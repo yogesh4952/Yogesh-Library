@@ -1,0 +1,215 @@
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(225, 220, 197);
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation {
+  width: 1200px;
+  height: 86px;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+}
+#search {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 14px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+  color: #333333;
+}
+#login {
+  padding: 6px 21px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 700;
+}
+#signup {
+  padding: 6px 21px;
+  background-color: #0376b8;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+}
+#Y {
+  color: rgba(0, 0, 0, 0.507);
+}
+.right a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}
+#login:hover {
+  cursor: pointer;
+  background-color: rgb(60, 58, 55);
+  color: rgb(255, 255, 255);
+}
+#signup:hover {
+  cursor: pointer;
+  background-color: rgb(60, 58, 55);
+  color: rgb(255, 255, 255);
+}
+*/
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: rgb(225, 220, 197);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* Navigation container */
+.navigation {
+  width: 100%;
+  background-color: rgb(225, 220, 197);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+/* Navigation bar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo #Y {
+  color: #0376b8; /* Blue color for Y */
+}
+
+/* Right side navigation links and controls */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.right a:hover {
+  color: #0376b8; /* Hover color */
+}
+
+.search-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 300px; /* Adjust width as needed */
+  /* margin-bottom: 10px; Adjust margin as needed */
+}
+
+#search {
+  flex: 1; /* Take remaining space */
+  height: 30px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+  font-size: 14px;
+}
+
+#search-button {
+  height: 30px;
+  padding: 8px 12px;
+  background-color: #0376b8; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#search-button:hover {
+  background-color: #036aa7; /* Darker color on hover */
+}
+
+/* Remove default outline on focus */
+#search:focus {
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+#login,
+#signup {
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#login {
+  background-color: #ffffff;
+  border: 1px solid #0376b8;
+  color: #0376b8;
+}
+
+#signup {
+  background-color: #0376b8;
+  color: #ffffff;
+}
+
+#login:hover,
+#signup:hover {
+  background-color: #036aa7; /* Darker blue */
+  color: #ffffff;
+}

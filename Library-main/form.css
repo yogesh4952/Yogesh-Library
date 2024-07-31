@@ -1,0 +1,70 @@
+* {
+}
+/* General form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.form h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form fields styling */
+.fillup {
+  width: 100%;
+}
+
+.fillup label {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.fillup input[type="text"],
+.fillup input[type="email"],
+.fillup input[type="number"],
+.fillup textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.fillup textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Button styling */
+.send {
+  display: flex;
+  justify-content: center;
+}
+
+.send button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send button:hover {
+  background-color: #0056b3;
+}

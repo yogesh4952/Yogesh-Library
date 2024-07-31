@@ -1,0 +1,65 @@
+.endings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  height: 200px;
+  /* position: absolute; */
+  width: 100%;
+}
+.ending {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bakas1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 33.33%;
+  height: 60%;
+  font-size: 20px;
+}
+
+.bakas2 {
+  display: flex;
+
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+.bakas3 {
+  width: 33.33%;
+
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.bakas3 img {
+  height: 62px;
+}
+.bakas2 img {
+  height: 100%;
+  width: 100%;
+}
+.sakkyo {
+  position: absolute;
+  background: rgb(172, 172, 173);
+  background: linear-gradient(
+    90deg,
+    rgba(172, 172, 173, 1) 0%,
+    rgba(165, 165, 176, 1) 35%,
+    rgba(190, 186, 167, 1) 54%,
+    rgba(164, 167, 168, 1) 82%,
+    rgba(109, 129, 133, 1) 95%
+  );
+  height: 50px;
+  width: 100%;
+  background: rgb(219, 209, 209);
+  left: 0;
+  right: 0;
+}

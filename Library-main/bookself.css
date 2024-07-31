@@ -1,0 +1,88 @@
+.trending {
+  position: relative;
+  top: 12px;
+}
+.name {
+  height: 65px;
+  padding-left: 14px;
+  /* margin-top: 14px; */
+  text-align: left;
+
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+.book1 {
+  padding: 12px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 14px;
+  background-color: rgb(225, 220, 197);
+}
+.book1 img {
+  height: 265px;
+
+  width: 100%;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+.third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(1, 6, 137); */
+}
+.fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(79, 83, 196); */
+}
+.fifth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(205, 89, 89); */
+}
+.sixth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.btn button {
+  margin-top: 14px;
+  width: 180px;
+  height: 44px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(3, 118, 184);
+  color: white;
+  font-size: 16px;
+}
+
+.btn button:hover {
+  cursor: pointer;
+  background: rgb(1, 54, 84);
+  color: rgb(255, 255, 255);
+}
+.book1 img {
+  border-radius: 7px;
+}
